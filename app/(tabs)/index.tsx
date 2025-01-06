@@ -8,6 +8,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { Container } from '@/components/Container';
+import SearchBar from '@/components/SearchBar';
 
 
 const logo = require("../../assets/images/react-logo.png");
@@ -20,6 +21,9 @@ export default function HomeScreen() {
         style={tw`w-24 h-10`}
         resizeMode="contain" // Corrected typo
       />
+      <SearchBar />
+       
+        
     </Container>
   );
 }
